@@ -7,7 +7,7 @@ const selectElement = (selector) => {
 
 //Nav styles on scroll
 const scrollHeader = () =>{
-    const navbarElement = selectElement('#navbar');
+    const navbarElement = selectElement('#header');
     if(this.scrollY >= 15) {
         navbarElement.classList.add('activated');
     } else {
