@@ -1,1 +1,1 @@
-### NewsFlash
+![Project humbnail](./CPpanel.png)
