@@ -1,1 +1,1 @@
-![Project humbnail](./CPpanel.png)
+![Project humbnail](./thumbnail.jpg)
