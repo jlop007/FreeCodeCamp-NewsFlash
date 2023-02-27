@@ -49,16 +49,156 @@ body{
 a{
     text-decoration: none;
     color: inherit;
-    
+
+}
+img{
+    max-width: 100%;
+    display: block;
+
+}
+
+ul{
+    list-style: none;
+
+}
+input,
+button{
+    font: inherit;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+i {
+    font-size: var(--font-size-md);
 }
 
 /* Theme color change */
+body.light-theme{
+    --light-color: #3d3d3d;
+    --light-color-alt: rgba(0,0,0,.6);
+    --primary-background-color: #fff;
+    --secondary-background-color: #f1f1f1;
+    --hover-light-color: #fff;
+    --transparent-dark-color: var(--secondary-background-color);
+    --transparent-light-color: rgba(0,0,0,.1);
+}
 
 /* Reusable classes */
+.container{
+    max-width: 160rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    
+
+}
+.place-items-center{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.section:not(.featurd-articles){
+    padding-block : 5rem;
+}
+
+.d-grid{
+    display: grid;
+}
+.screen-sm-hidden{
+    display: None;
+}
+
 
 /* Header */
+.header{
+    background-color: var(--secondary-background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+}
+.logo{
+    font-size: var(--font-size-md);
+    color: var(--light-color);
+}
+
+.menu{
+    position: absolute;
+    top: 8.5rem;
+    right: 1.5rem;
+    width: 23rem;
+    padding: 1.5rem;
+    background-color: var(--secondary-background-color);
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity .25s ease-in;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+
+}
+.menu > .list{
+    flex-direction: column;
+
+}
+
+
+.list-link.list.current{
+    color: var(--light-color);
+}
+
+.close-menu-icon{
+    display: none;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.list-link:hover,
+.btn:hover,
+.btn:hover span{
+    color: var(--light-color);
+}
+
+.moon-icon{
+    display: none;
+
+}
+
+.light-theme .sun-icon{
+    display: None;
+
+}
+
+.light-theme .moon-icon{
+    display: block;
+
+}
+
 
 /* Header JavaScript Styles */
+.header.activated{
+    box-shadow: 1px 1px 1rem var(--transparent-light-color);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.menu-toggle-icon.activated .open-menu-icon{
+    display: None;
+}
+.menue-toggle-icon.activated .close-menu-icon{
+    display: block;
+}
 
 /* Search */
 
