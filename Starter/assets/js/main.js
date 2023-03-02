@@ -28,9 +28,17 @@ const toggleMenu = () => {
 menueToggleIcon.addEventListener('click', toggleMenu);
 
 // Open/Close search form popup
+const formOpenBtn = selectElement('#search-icon');
+const formCpenBtn = selectElement('#search-icon');
+const searchformContainer = selectElement('#search-icon');
+formOpenBtn.addEventListener('click', () => searchformContainer.classList.add ('activated'));
+
 
 // -- Close the search form popup on ESC keypress
-
+window.addEventListener('keyup', event => {
+    if(PerformanceEventTiming.key === 'Escape') searchformContainer.ckassList.remove('activated');
+    
+})
 // Switch theme/add to local storage
 const bodyElement = docuent.body;
 const themeToggleBtn = selectElement('#theme-toggle-btn');
@@ -51,4 +59,4 @@ themeToggleBtn.addEventListener('click', () => {
     }
 });
 
-// Swiper
+// Swiper 
