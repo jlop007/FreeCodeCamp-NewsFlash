@@ -37,7 +37,7 @@ formOpenBtn.addEventListener('click', () => searchformContainer.classList.add ('
 // -- Close the search form popup on ESC keypress
 window.addEventListener('keyup', event => {
     if(PerformanceEventTiming.key === 'Escape') searchformContainer.ckassList.remove('activated');
-    
+
 })
 // Switch theme/add to local storage
 const bodyElement = docuent.body;
@@ -60,3 +60,23 @@ themeToggleBtn.addEventListener('click', () => {
 });
 
 // Swiper 
+const swiper = new swiper('.swiper',{
+    slidesPerView: i,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevE1: '.swiper-button-prev' 
+    },
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    breakpoints: {
+        700: {
+            slidesPerView: 2
+        },
+        1200: {
+            slidesPerView: 3
+        }
+    }
+
+});
