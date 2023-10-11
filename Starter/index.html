@@ -15,20 +15,649 @@
 </head>
 <body>
     <!-- Header -->
+    <header class = "header" id ="header">
+        <nav class ="navbar container">
+            <a href="./index.html">
+                <h2 class=" logo">NewsFlash</h2>
+            </a>
+            <div class="menu" id="menue">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden" >
+                        <a href="#" class="list-link">sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">sign up</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list list-right">
+                <div class="list list-right">
+                    <button class="btn place-items-center" id="theme-toggle-btn">
+                        <i class="ri-sun-line sun-icon"></i>
+                        <i class="ri-moon-line moon-icon"></i>
+                    </button>
+                    <button class="btn place-items-center" id="search-icon">
+                        <i class="ri-search-line"></i>
+                    </button>
+                    <button class="btn place-items-center screen-ig-hidden menu-toggle-icon" id="theme-toggle-btn">
+                        <i class="ri-menu-3-line open-menu-icon"></i>
+                        <i class="ri-close-line close-menu-icon"></i>
+                    </button>
+                    <a href="" class="list-link screen-sm-hidden">Sign in</a>
+                    <a href="" class="list-link screen-sm-hidden btn sign-up-btn fancy-border">
+                        <span>Sign in</span>
+                    </a>
+
+            </div>
+            
+        </nav>
+    </header>
 
     <!-- Search -->
-
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container-inner">
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="What are you lookin for?">
+                <button class = "btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="btn from-close-btn place-items-center" id="form-close-btn">
+                <i class = "ri-close-line"></i>
+            </span>
+        </div>
+    </div>
     <!-- Featured articles -->
-    
+    <section class="featured-artical section-header-offset">
+        <div class="featured-sartical-container container d-grid">
+            <div class="featured-content d-grid">
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Breaking news</span>
+                    </h3>
+                    <span class="headline-description">Apple announces a new partnership...</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-1.jpg" alt="" class="artical-image">
+                    <span class="article-categgory">Technology</span>
+                    <div class="artical-data-container">
+                        <div class="artical-data">
+                            <span>Dec 5th 2021</span>
+                            <span>class = "article-data-space"</span>
+                            <span>8 min read</span>
+                        </div>
+                        <h3 class="title-article-title">Is Vr the future</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-2.jpg" alt="" class="artical-image">
+                    <span class="article-categgory">Technology</span>
+                    <div class="artical-data-container">
+                        <div class="artical-data">
+                            <span>Dec 5th 2021</span>
+                            <span>class = "article-data-space"</span>
+                            <span>8 min read</span>
+                        </div>
+                        <h3 class="title-article-title">Is Vr the future</h3>
+                        
+                    </div>
+                </a><a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-3.jpg" alt="" class="artical-image">
+                    <span class="article-categgory">Technology</span>
+                    <div class="artical-data-container">
+                        <div class="artical-data">
+                            <span>Dec 5th 2021</span>
+                            <span>class = "article-data-space"</span>
+                            <span>8 min read</span>
+                        </div>
+                        <h3 class="title-article-title">Is Vr the future</h3>
+                        
+                    </div>
+                </a>
+            </div>
+
+            <!-- siderbar -->
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending News</h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/trending/trending_1.jpg" alt="" class="article-image">
+                    </div>
+                    
+                    <div class="Trending-news-data">
+                        <div class="artical-data">
+                            <span>Dec 5th 2021</span>
+                            <span>class = "article-data-space"</span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-tilte">Sample artical title</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/trending/trending_2.jpg" alt="" class="article-image">
+                    </div>
+                    
+                    <div class="Trending-news-data">
+                        <div class="artical-data">
+                            <span>Dec 5th 2021</span>
+                            <span>class = "article-data-space"</span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-tilte">Sample artical title</h3>
+                    </div>
+                </a>
+
+
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending/trending_3.jpg" alt="" class="article-image">
+                    </div>
+                    
+                    <div class="Trending-news-data">
+                        <div class="artical-data">
+                            <span>Dec 5th 2021</span>
+                            <span>class = "article-data-space"</span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-tilte">Sample artical title</h3>
+                    </div>
+                </a>
+
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/trending/trending_4.jpg" alt="" class="article-image">
+                    </div>
+                    
+                    <div class="Trending-news-data">
+
+                        <div class="artical-data">
+                            <span>Dec 5th 2021</span>
+                            <span>class = "article-data-space"</span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-tilte">Sample artical title</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
+                    </div>
+                    
+                    <div class="Trending-news-data">
+                        <div class="artical-data">
+                            <span>Dec 5th 2021</span>
+                            <span>class = "article-data-space"</span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-tilte">Sample artical title</h3>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </section>
     <!-- Quick read -->
+    <section class="quick-read section">
+        <div class="container">
+            <h2 class="title section-title" data-name="Quick read">Quick Read</h2>
+            <div class="swiper">
+                <div class="swiper-wrappper">
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/qick_read/quick_read_1.jpg" alt="" 
+                        class="artical-image">
+
+                        <div class="Trending-news-data">
+                        
+                            <div class="artical-data">
+                                <span>Dec 5th 2021</span>
+                                <span>class = "article-data-space"</span>
+                                <span>8 min read</span>
+                            </div>
+    
+                            <h3 class="title article-tilte">Sample artical title</h3>
+                        </div>
+                        
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/qick_read/quick_read_2.jpg" alt="" 
+                        class="artical-image">
+                        
+                        <div class="Trending-news-data">
+                        
+                            <div class="artical-data">
+                                <span>Dec 5th 2021</span>
+                                <span>class = "article-data-space"</span>
+                                <span>8 min read</span>
+                            </div>
+    
+                            <h3 class="title article-tilte">Sample artical title</h3>
+                        </div>
+                        
+
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/qick_read/quick_read_3.jpg" alt="" 
+                        class="artical-image">
+                        
+                        <div class="Trending-news-data">
+                        
+                            <div class="artical-data">
+                                <span>Dec 5th 2021</span>
+                                <span>class = "article-data-space"</span>
+                                <span>8 min read</span>
+                            </div>
+    
+                            <h3 class="title article-tilte">Sample artical title</h3>
+                        </div>
+                        
+
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/qick_read/quick_read_4.jpg" alt="" 
+                        class="artical-image">
+                        
+                        <div class="Trending-news-data">
+                        
+                            <div class="artical-data">
+                                <span>Dec 5th 2021</span>
+                                <span>class = "article-data-space"</span>
+                                <span>8 min read</span>
+                            </div>
+    
+                            <h3 class="title article-tilte">Sample artical title</h3>
+                        </div>
+                        
+
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/qick_read/quick_read_5.jpg" alt="" 
+                        class="artical-image">
+                        
+                        <div class="Trending-news-data">
+                        
+                            <div class="artical-data">
+                                <span>Dec 5th 2021</span>
+                                <span>class = "article-data-space"</span>
+                                <span>8 min read</span>
+                            </div>
+    
+                            <h3 class="title article-tilte">Sample artical title</h3>
+                        </div>
+                        
+                    </a>
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/qick_read/quick_read_6.jpg" alt="" 
+                        class="artical-image">
+                        
+                        <div class="Trending-news-data">
+                        
+                            <div class="artical-data">
+                                <span>Dec 5th 2021</span>
+                                <span>class = "article-data-space"</span>
+                                <span>8 min read</span>
+                            </div>
+    
+                            <h3 class="title article-tilte">Sample artical title</h3>
+                        </div>
+                        
+                    </a>
+
+                </div>
+
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
 
     <!-- Older posts -->
+    <section class="older-posts section">
+        <div class="container">
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-psts-grid-wrapper d-grid">
+                <a href="#" class="article d-grid">
+                    <div class="older-post-artical-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_1.jpg" alt="" 
+                        class="artical-image">
+
+                    </div>
+
+                    <div class="artical-data">
+                        <span>Dec 5th 2021</span>
+                        <span>class = "article-data-space"</span>
+                        <span>8 min read</span>
+                    </div>
+
+                    <h3 class="title article-tilte">Sample artical title</h3>
+                    <p class="article-description">hbn bhdgdhsbvc khvddbvhjsgygv hgysaHBH
+                        KDNJDNMVFE  EHEUGBCHD
+                    </p>
+                </div>
+
+
+                </a>
+                <a href="#" class="article d-grid">
+                    <div class="older-post-artical-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_2.jpg" alt="" 
+                        class="artical-image">
+
+                    </div>
+
+                    <div class="artical-data">
+                        <span>Dec 5th 2021</span>
+                        <span>class = "article-data-space"</span>
+                        <span>8 min read</span>
+                    </div>
+
+                    <h3 class="title article-tilte">Sample artical title</h3>
+                    <p class="article-description">hbn bhdgdhsbvc khvddbvhjsgygv hgysaHBH
+                        KDNJDNMVFE  EHEUGBCHD
+                    </p>
+                </div>
+
+
+                </a>
+                <a href="#" class="article d-grid">
+                    <div class="older-post-artical-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_3.jpg" alt="" 
+                        class="artical-image">
+
+                    </div>
+
+                    <div class="artical-data">
+                        <span>Dec 5th 2021</span>
+                        <span>class = "article-data-space"</span>
+                        <span>8 min read</span>
+                    </div>
+
+                    <h3 class="title article-tilte">Sample artical title</h3>
+                    <p class="article-description">hbn bhdgdhsbvc khvddbvhjsgygv hgysaHBH
+                        KDNJDNMVFE  EHEUGBCHD
+                    </p>
+                </div>
+
+
+                </a>
+                <a href="#" class="article d-grid">
+                    <div class="older-post-artical-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_4.jpg" alt="" 
+                        class="artical-image">
+
+                    </div>
+
+                    <div class="artical-data">
+                        <span>Dec 5th 2021</span>
+                        <span>class = "article-data-space"</span>
+                        <span>8 min read</span>
+                    </div>
+
+                    <h3 class="title article-tilte">Sample artical title</h3>
+                    <p class="article-description">hbn bhdgdhsbvc khvddbvhjsgygv hgysaHBH
+                        KDNJDNMVFE  EHEUGBCHD
+                    </p>
+                </div>
+
+
+                </a>
+                <a href="#" class="article d-grid">
+                    <div class="older-post-artical-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_5.jpg" alt="" 
+                        class="artical-image">
+
+                    </div>
+
+                    <div class="artical-data">
+                        <span>Dec 5th 2021</span>
+                        <span>class = "article-data-space"</span>
+                        <span>8 min read</span>
+                    </div>
+
+                    <h3 class="title article-tilte">Sample artical title</h3>
+                    <p class="article-description">hbn bhdgdhsbvc khvddbvhjsgygv hgysaHBH
+                        KDNJDNMVFE  EHEUGBCHD
+                    </p>
+                </div>
+
+
+                </a>
+               
+            </div>
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn placeitems-center">
+                    see more <i class="rl-arrrow-right-s-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
     
     <!-- Popular tags -->
+    <section class="popular-tags section">
+        <div class="container">
+
+            <h2 class="title section-title" data-name="popular-tags">popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+                <a href="#" class="article">
+                    <span class="tag-name">#travel</span>
+                    <img src="./assets/images/tags/travel/tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#FOOD</span>
+                    <img src="./assets/images/tags/travel/tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#travel</span>
+                    <img src="./assets/images/tags/food/tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Technology</span>
+                    <img src="./assets/images/tags/Technology/tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Health</span>
+                    <img src="./assets/images/tags/Health/tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Nature</span>
+                    <img src="./assets/images/tags/Nature/tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Buisness</span>
+                    <img src="./assets/images/tags/Buisness/tag.jpg" alt="" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
 
     <!-- Newsletter -->
-    
+    <section class="newsletter section">
+        <div class="container">
+            <h2 class="title section-title" data-name= "Newsletter">Newsletter</h2>
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscibe to news flas</h6>
+                <p class="newsletter description">hfuh eduwhdjn kbueudhej kgweuigfweb fancy-border</p>
+
+                    <form action="" class="form">
+                        <input type="text" class="form input" placeholder = "Enter your eamail address">
+                        <button class="btn form-btn" type = "Submit">
+                            <i class="ri-mail-send-line"></i>
+
+                        </button>
+
+                    </form>
+                
+            </div>
+        </div>
+
+    </section>
     <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class=" logo">NewsFlash</h2>
+                </a>
+                <p class="company-description">
+                    ndjksd mnkeudbadsjdlaji 
+                </p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-pinterest-line"></i>
+                        </a>
+
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy; 2023 NewsFlash. All rigths reserved</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-titile">Categories</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h6 class="title footer-titile">Useful links</h6>
+
+            <ul class="list footer-list">
+                <li class="list-item">
+                    <a href="#" class="list-link">Sample item</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Sample item</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Sample item</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Sample item</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Sample item</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Sample item</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h6 class="title footer-titile">Categories</h6>
+
+        <ul class="list footer-list">
+            <li class="list-item">
+                <a href="#" class="list-link">Sample item</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-link">Sample item</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-link">Sample item</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-link">Sample item</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-link">Sample item</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-link">Sample item</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+    </footer>
 
     <!-- Swiper.js -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
