@@ -180,11 +180,11 @@ body.light-theme {
 
 /* Header JavaScript Styles */
 .header.active {
-  box-shadow: 0 1px 0.5rem --transparent-light-color;
+  box-shadow: 0 1px 0.5rem var(--transparent-light-color);
 }
 
 .menu.active {
-  box-shadow: 1px 1px 1rem --transparent-light-color;
+  box-shadow: 1px 1px 1rem var(--transparent-light-color);
   opacity: 1;
   transform: scale(1);
 }
