@@ -542,6 +542,32 @@ body.light-theme {
   transform: translateX(0.5rem);
 }
 /* Popular tags */
+.popular-tags-container {
+  gap: var(--gap);
+}
+
+.popular-tags-container .article {
+  min-height: var(--item-min-height-sm);
+  overflow: hidden;
+}
+
+.tag-name {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--transparent-dark-color);
+  padding: 1rem 2rem;
+}
+
+.popular-tags-container .article:hover .tag-name {
+  color: var(--light-color);
+}
+
+.popular-tags-container .article:hover .article-image {
+  transform: scale(1.05);
+}
 
 /* Newsletter */
 
