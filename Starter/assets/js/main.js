@@ -82,3 +82,9 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const yrSpan = selectElement(".yrSpan");
+  let year = new Date().getFullYear();
+  yrSpan.innerHTML = year;
+});
