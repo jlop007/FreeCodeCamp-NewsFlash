@@ -19,7 +19,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/blogharmony.git
+git clone https://github.com/sumeetbidhan/Blog.git
 Open the project folder:
 
 bash
